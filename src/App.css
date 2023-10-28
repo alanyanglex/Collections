@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 230, 0);
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  text-align: center;
+  background-color: yellowgreen;
+}
+
+.body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 60px;
+  align-items: center;
+  
+}
+
+
+.movie {
+  width: 20%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+
+}
+
+.movie-header {
+  text-align: center;
+  display: flex;
+}
